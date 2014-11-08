@@ -1,8 +1,13 @@
 package com.apokal.gestoman.model;
 
+/**
+ * Models a supply of a substance.
+ * @author Alexander Stahl
+ *
+ */
 public class Supply {
 	private int id;
-	private UnitValue amount;
+	private double amount;
 	private int aggregate_state;
 	private String name;
 	private Location location;
@@ -26,10 +31,10 @@ public class Supply {
 	public void setId(int id) {
 		this.id = id;
 	}
-	public UnitValue getAmount() {
+	public double getAmount() {
 		return amount;
 	}
-	public void setAmount(UnitValue amount) {
+	public void setAmount(double amount) {
 		this.amount = amount;
 	}
 	public int getAggregate_state() {

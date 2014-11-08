@@ -16,6 +16,12 @@ import javax.swing.JTextField;
 
 import com.apokal.gestoman.controller.SettingsHandler;
 
+/**
+ * Graphical User Interface.
+ * 
+ * @author Alexander Stahl
+ *
+ */
 public class Gui extends JFrame implements ActionListener {
 	private static Gui instance = null;
 	
@@ -37,7 +43,6 @@ public class Gui extends JFrame implements ActionListener {
 		l2container1.setLayout(new GridLayout());
 		Container l2container2 = new Container();
 		l2container2.setLayout(flowlayout);
-				
 		
 		List list = new List();
 		list.setSize(l1container.WIDTH, 400);
@@ -61,7 +66,6 @@ public class Gui extends JFrame implements ActionListener {
 		l2container2.add(showButton);
 		
 		this.add(l2container2);
-		
 	}
 	
 	public static Gui getInstance () {

@@ -15,7 +15,7 @@ public class Controller {
 		substancemanager = new SubstanceManager();
 		supplymanager = new SupplyManager();
 		resourceloader = new ResourceLoader();
-		datahandler = new DataHandler();
+		datahandler = DataHandler.getInstance();
 		gui = Gui.getInstance();
 		gui.setVisible(true);
 	}

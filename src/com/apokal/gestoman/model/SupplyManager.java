@@ -2,6 +2,11 @@ package com.apokal.gestoman.model;
 
 import java.util.ArrayList;
 
+/**
+ * Responsible for providing managing features for Supply objects.
+ * @author Alexander Stahl
+ *
+ */
 public class SupplyManager {
 	private ArrayList<Supply> supplies;
 	

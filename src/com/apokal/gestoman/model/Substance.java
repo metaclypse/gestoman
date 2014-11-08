@@ -1,5 +1,11 @@
 package com.apokal.gestoman.model;
 
+/**
+ * Models a chemical substance.
+ * 
+ * @author Alexander Stahl
+ *
+ */
 public class Substance {
 	private String name;
 	private boolean[] hs = new boolean[7];

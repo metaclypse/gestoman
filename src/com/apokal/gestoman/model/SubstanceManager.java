@@ -2,6 +2,11 @@ package com.apokal.gestoman.model;
 
 import java.util.ArrayList;
 
+/**
+ * Responsible for providing managing features regarding the Substance class.
+ * @author Alexander Stahl
+ *
+ */
 public class SubstanceManager {
 	private ArrayList<Substance> substances;
 	
